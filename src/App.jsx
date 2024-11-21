@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import Model from "./components/Model";
 import Navbar from "./components/Navbar";
+import "./App.css";
 
 export default function App() {
   return (
@@ -11,5 +12,5 @@ export default function App() {
       <Highlights />
       <Model />
     </main>
-  )
+  );
 }
