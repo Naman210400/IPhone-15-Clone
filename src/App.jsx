@@ -3,6 +3,9 @@ import Highlights from "./components/Highlights";
 import Model from "./components/Model";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -11,6 +14,9 @@ export default function App() {
       <Hero />
       <Highlights />
       <Model />
+      <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   );
 }
